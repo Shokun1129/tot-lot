@@ -1,0 +1,77 @@
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+    nav img {
+        padding-right: 30px;
+        width: 60px;
+    }
+
+    .icon_img {
+        width: 100px;
+    }
+
+    .container{
+        min-height: 750px;
+    }
+
+    div #game {
+        padding: 0.5em;
+        min-height: 800px;
+    }
+    .boxes-inner {
+        margin: 0em;
+    }
+
+    .thumbnail {
+        width: 280px;
+        margin: 0.5em;
+    }
+
+    .container:nth-child(3){
+        padding-top: 140px;
+        min-height: 1300px;
+    }
+
+    /*========= 画像の配置 ===============*/
+    #neko-01 {
+        width: 60%;
+        transform: translate(50%, 57%);
+        animation: moveNeko1 20s ease-in-out infinite;
+    }
+
+    #neko-02 {
+        width: 40%;
+        transform: translate(1%, 0%); 
+        animation: moveNeko2 22s ease infinite;
+    }
+
+    #neko-03 {
+        width: 35%;
+        position: absolute;
+        right: 0;
+        bottom: 60px;
+    }
+
+    #item-01 {
+        width: 37%;
+        transform: translate(-5%, 65%); 
+    }
+
+    #item-02 {
+        width: 20%;
+        transform: translate(70%, 10%) rotate(-22deg);; 
+    }
+
+    @keyframes moveNeko1 {
+        0%, 100% { transform: scale(1) translate(50%, 57%) rotate(0deg); }
+        25% { transform: scale(1.005) translate(50%, 59%) rotate(1deg); }
+        50% { transform: scale(0.995) translate(50%, 56%) rotate(-1deg); }
+        75% { transform: scale(1.005) translate(55%, 56%) rotate(0.5deg); }
+    }
+    
+    @keyframes moveNeko2 {
+        0%, 100% { transform: scale(1) translate(2%, 0%) rotate(0deg); }
+        20% { transform: scale(1.005) translate(4%, 1%) rotate(1deg); }
+        40% { transform: scale(0.995) translate(7%, 4%) rotate(-1deg); }
+        60% { transform: scale(1.005) translate(6%, 2%) rotate(0.5deg); }
+        80% { transform: scale(1.002) translate(1%, 4%) rotate(-0.5deg); }
+    }
+}

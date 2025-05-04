@@ -1,0 +1,101 @@
+{
+    "moji": [
+        "あ", "い", "う", "え", "お",
+        "か", "き", "く", "け", "こ",
+        "さ", "し", "す", "せ", "そ",
+        "た", "ち", "つ", "て", "と",
+        "な", "に", "ぬ", "ね", "の",
+        "は", "ひ", "ふ", "へ", "ほ",
+        "ま", "み", "む", "め", "も",
+        "や", "ゆ", "よ",
+        "ら", "り", "る", "れ", "ろ",
+        "わ", "を", "ん",
+        "が", "ぎ", "ぐ", "げ", "ご",
+        "ざ", "じ", "ず", "ぜ", "ぞ",
+        "だ", "ぢ", "づ", "で", "ど",
+        "ば", "び", "ぶ", "べ", "ぼ",
+        "ぱ", "ぴ", "ぷ", "ぺ", "ぽ"
+    ],
+    "animal_define": [
+      {
+        "spriteIndex": 0,
+        "answerLength": 2,
+        "answer": "しか"
+      },
+      {
+        "spriteIndex": 1,
+        "answerLength": 2,
+        "answer": "りす"
+      },
+      {
+        "spriteIndex": 2,
+        "answerLength": 2,
+        "answer": "くま"
+      },
+      {
+        "spriteIndex": 3,
+        "answerLength": 3,
+        "answer": "きつね"
+      },
+      {
+        "spriteIndex": 4,
+        "answerLength": 2,
+        "answer": "ねこ"
+      },
+      {
+        "spriteIndex": 5,
+        "answerLength": 2,
+        "answer": "いぬ"
+      },
+      {
+        "spriteIndex": 6,
+        "answerLength": 2,
+        "answer": "いぬ"
+      },
+      {
+        "spriteIndex": 7,
+        "answerLength": 3,
+        "answer": "うさぎ"
+      },
+      {
+        "spriteIndex": 8,
+        "answerLength": 2,
+        "answer": "とら"
+      },
+      {
+        "spriteIndex": 9,
+        "answerLength": 3,
+        "answer": "こあら"
+      },
+      {
+        "spriteIndex": 10,
+        "answerLength": 3,
+        "answer": "きりん"
+      },
+      {
+        "spriteIndex": 11,
+        "answerLength": 2,
+        "answer": "はと"
+      },
+      {
+        "spriteIndex": 12,
+        "answerLength": 2,
+        "answer": "ぞう"
+      },
+      {
+        "spriteIndex": 13,
+        "answerLength": 2,
+        "answer": "うし"
+      },
+      {
+        "spriteIndex": 14,
+        "answerLength": 3,
+        "answer": "いるか"
+      },
+      {
+        "spriteIndex": 15,
+        "answerLength": 2,
+        "answer": "うま"
+      }
+    ]
+  }

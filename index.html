@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tot lot</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_mobile.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div class="container">
+      <div id="top">
+        <nav>
+          <a href="#ehon" class="nav-item"><img src="img/icon/01.png"></a>
+          <a href="#game" class="nav-item"><img src="img/icon/02.png"></a>
+        </nav>
+        <svg id="fluid-shape" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"  preserveAspectRatio="xMidYMid meet" version="1.0">
+          <path id="blob" fill="#fff" fill-opacity="1" fill-rule="nonzero"/>
+          <image id="neko-01" xlink:href = "img/chara/Neko1.png"/>
+          <image id="neko-02" xlink:href = "img/chara/Neko2.png"/>
+          <image id="item-01" xlink:href = "img/bg/unyo.png"/>
+          <image id="item-02" xlink:href = "img/bg/unyo2.png"/>
+        </svg>
+      </div>
+      <canvas id="waveCanvas"></canvas>
+    </div>
+    <div class="container">
+      <div id="ehon">
+        <img src="img/icon/01.png" class="icon_img">
+        <p>準備中</p>
+      </div>
+    </div>
+    <div class="container">
+      <canvas id="waveCanvas2"></canvas>
+      <img src="img/icon/02.png" class="icon_img">
+      <div id="game">
+        <div class="boxes-inner">
+          <div class="box fade-in-up">
+            <a href="contents/game/car/index.html" target="_blank">
+            <img class="thumbnail" src="img/thumbnail/game/car.png"></a>
+            <p>はたらくくるま</p>
+          </div>
+          <div class="box fade-in-up">
+            <a href="contents/game/puzzle/index.html" target="_blank">
+            <img class="thumbnail" src="img/thumbnail/game/puzzle.png"></a>
+            <p>パズルゲーム</p>
+          </div>
+          <div class="box fade-in-up">
+            <a href="contents/game/hiragana/index.html" target="_blank">
+            <img class="thumbnail" src="img/thumbnail/game/hiragana.png"></a>
+            <p>名前あてゲーム</p>
+          </div>
+          <div class="box fade-in-up">
+            <a href="contents/game/puzzle_animal/index.html" target="_blank">
+            <img class="thumbnail" src="img/thumbnail/game/puzzle_animal.png"></a>
+            <p>どうぶつパズルゲーム</p>
+          </div>
+        </div>
+      </div>
+      <canvas id="waveCanvas3"></canvas>
+    </div>
+    <div class="container">
+      <p>趣味で作った色々の置き場です。</p>
+      <p>until:飽きるか原稿期まで</p><br><br>
+      <p>製造元：</p><a href="https://github.com/Shokun1129">Shokun</a></p>
+      <img id="neko-03" src="img/chara/Neko03.png">
+      <canvas id="waveCanvas4"></canvas>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
